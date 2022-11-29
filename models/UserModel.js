@@ -38,8 +38,7 @@ const UserSchema = new mongoose.Schema(
         },
         subscription: {
             type: Boolean,
-            required: true,
-            default: true,
+            required: false,
         }
     }
 );
